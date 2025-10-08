@@ -5,7 +5,7 @@
 /*蜂鳴器*/
 int main(void)
 {
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE); //打開 GPIOA 的時鐘
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE); //打開 GPIOB 的時鐘
 	GPIO_InitTypeDef GPIO_Instruction;
 	GPIO_Instruction.GPIO_Mode = GPIO_Mode_Out_PP;
 	
